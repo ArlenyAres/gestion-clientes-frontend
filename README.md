@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Gestión de Clientes - Frontend
+Este proyecto es la interfaz de usuario para la aplicación de gestión de clientes, desarrollada utilizando React. La aplicación permite a los usuarios agregar, editar, listar y eliminar clientes. Está conectada a un backend desarrollado con Spring Boot que interactúa con una base de datos MySQL.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologías Utilizadas
+React
+Axios
+React Router DOM
+Bootstrap
 
-## Available Scripts
+### Requisitos Previos
+Node.js (>= 14.x)
+npm (>= 6.x)
 
-In the project directory, you can run:
+### Instalación
+Clona el repositorio:
 
-### `npm start`
+```
+git clone [https://github.com/tuusuario/gestion-clientes-frontend.git](https://github.com/ArlenyAres/gestion-clientes-frontend.git)
+cd gestion-clientes-frontend
+```
+### Instala las dependencias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm install
+```
+### Configuración
+Crea un archivo .env en la raíz del proyecto y agrega la siguiente configuración (ajustando el valor según sea necesario):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+REACT_APP_API_URL=http://localhost:8080/api/v1
+````
 
-### `npm test`
+### Ejecución
+Para iniciar la aplicación en modo desarrollo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
+La aplicación estará disponible en http://localhost:3000.
 
-### `npm run build`
+### Estructura del Proyecto
+```
+src/
+components/: Componentes de React utilizados en la aplicación.
+services/: Servicios para realizar peticiones HTTP al backend.
+App.js: Componente principal de la aplicación.
+index.js: Punto de entrada de la aplicación.
+```
+### Funcionalidades
+#### Listado de Clientes: 
+Visualiza una lista de clientes registrados.
+#### Agregar Cliente: 
+Permite agregar un nuevo cliente.
+#### Editar Cliente: 
+Permite editar la información de un cliente existente.
+#### Eliminar Cliente: 
+Permite eliminar un cliente de la lista.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://github.com/user-attachments/assets/2c7c134d-3466-4403-a999-1595792dbdb2
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
