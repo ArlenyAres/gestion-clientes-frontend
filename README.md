@@ -1,5 +1,5 @@
 # Gestión de Clientes - Frontend
-Este proyecto es la interfaz de usuario para la aplicación de gestión de clientes, desarrollada utilizando React. La aplicación permite a los usuarios agregar, editar, listar y eliminar clientes. Está conectada a un backend desarrollado con Spring Boot que interactúa con una base de datos MySQL.
+Este proyecto es la interfaz de usuario para la aplicación de gestión de clientes, desarrollada utilizando React. La aplicación permite a los usuarios agregar, editar, listar y eliminar clientes. Está conectada a un backend desarrollado con Spring  que interactúa con una base de datos MySQL.
 
 ## Tecnologías Utilizadas
 React
